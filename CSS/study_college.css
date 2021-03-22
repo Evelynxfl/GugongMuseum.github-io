@@ -1,0 +1,944 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+::selection{
+	background: #9D8540;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+li{
+	list-style: none;
+}
+.content .wrap{
+	width: 1258px;
+	height: 70px;
+	margin:auto;
+	font-family: 微软雅黑,'Heiti SC',黑体,Arial;
+	font-size: 14px;
+	color: #707070;
+	line-height: 50px;
+	padding-left: 3px; 
+}
+
+.content .wrap1{
+	position: relative;
+	width: 1258px;
+	height: 450px;
+	margin: 0 auto 0;
+	overflow: hidden;
+}
+.content .wrap1 .w1_head i{
+	position: relative;
+	width: 22px;
+	height: 28px;
+	background: url(../images/images5/故宫学院边框.png) no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 -6px;
+}
+.content .wrap1 .w1_head .i2{
+	background-position: right top;
+}
+.content .wrap1 .w1_head{
+	width: 100%;
+	position: absolute;
+	top: 113px;
+	left: 63px;
+	color: #fff;
+	text-align: center;	
+	font-size: 26px;
+}
+.content .wrap1 #w1_text1{
+	width: 89%;
+	height: 100%;
+	position: absolute;
+	line-height: 1.5;
+	color: #fff;
+	display: block;
+}
+.content .wrap1 #w1_text1 #bck1{
+	position: absolute;
+	width: 1258px;
+	height: 450px;
+	background: url(../images/images5/故宫学院head.jpg) no-repeat center;
+	background-size: 100% 100%;
+	z-index: -1;
+	animation-duration: 1s;
+	animation-name: mohu1;
+	animation-fill-mode: forwards;
+	-webkit-filter: blur(5px);
+}
+@keyframes mohu1{
+	to{
+		-webkit-filter: blur(0px);
+	}
+}
+.content .wrap1 #w1_text1 p{
+	position: relative;
+	font-size: 15px;
+	line-height: 24px;
+	text-indent: 2em;
+	top: 165px;
+	left: 75px;
+}
+.content .wrap1 #w1_text1 #txt1,.w1_head{
+	animation-name: wenzi1;
+	animation-duration: .5s;
+}
+@keyframes wenzi1{
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	75%{
+		opacity: 0.75;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+.content .wrap1 #w1_text2 #change{
+	animation-name: wenzi2;
+	animation-duration: 1s;
+}
+@keyframes wenzi2{
+	0%{
+		transform: scale3d(0,0.15,0);
+	}
+	100%{
+		transform: scale3d(1,1,1);
+	}
+}
+.content .wrap1 #w1_text2{
+	width: 89%;
+	height: 100%;
+	position: absolute;
+	line-height: 1.5;
+	color: #fff;
+	display: none;
+}
+.content .wrap1 #w1_text2 #bck2{
+	position: absolute;
+	width: 1258px;
+	height: 450px;
+	background: url(../images/images5/故宫学院head.jpg) no-repeat center;
+	background-size: 100% 100%;
+	z-index: -1;
+	animation-duration: 1s;
+	animation-name: mohu2;
+	animation-fill-mode: forwards;
+	-webkit-filter: blur(0px);
+}
+@keyframes mohu2{
+	to{
+		-webkit-filter: blur(5px);
+	}
+}
+.content .wrap1 #w1_text2 p{
+	position: relative;
+	font-size: 15px;
+	line-height: 24px;
+	text-indent: 2em;
+	top: 110px;
+	left: 75px;
+}
+#C_button #button1{
+	position: absolute;
+	width: 120px;
+	background: rgba(0,0,0,0.4);
+	height: 120px;
+	border-radius: 50%;
+	right: -65px;
+	bottom: -65px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+}
+#C_button #button1 img{
+	margin-top: 25px;
+	margin-left: 25px;
+	transition: ease-in-out;
+	animation-duration: 1.5s;
+	animation-name: anniu1;
+	animation-iteration-count: infinite;
+}
+@keyframes anniu1{
+	50%{
+		margin-top: 35px;
+		margin-left: 35px;
+	}
+	100%{
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+}
+#C_button #button2{
+	position: absolute;
+	width: 120px;
+	background: rgba(0,0,0,0.4);
+	height: 120px;
+	border-radius: 50%;
+	right: -65px;
+	bottom: -65px;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+}
+#C_button #button2 img{
+	margin-top: 25px;
+	margin-left: 25px;
+	transition: ease-in-out;
+	animation-duration: 1.5s;
+	animation-name: anniu2;
+	animation-iteration-count: infinite;
+}
+@keyframes anniu2{
+	100%{
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+	50%{
+		margin-top: 35px;
+		margin-left: 35px;
+	}
+}
+
+.content .wrap2 .w2_head{
+	margin-top: 100px;
+	width: 1258px;
+	text-align: center;
+	font-size: 26px;
+	color: #474747;
+}
+.content .wrap2{
+	width: 1258px;
+	height: 1000px;
+	position: relative;
+	margin: auto;
+}
+.content .wrap2 .w2_list{
+	width: 105%;
+	height: 800px;
+	margin-top: 25px;
+}
+.content .wrap2 .w2_list a:hover{
+	color: ;
+}
+.content .wrap2 .w2_list .list2,.list4{
+	left: 10px;
+}
+.content .wrap2 .w2_list .list3,.list4{
+	top: 40px;
+}
+.content .wrap2 .w2_list .list1{
+	position: relative;
+	width: 635px;
+	height: 410px;
+	float: left;
+}
+.content .wrap2 .w2_list .list2{
+	position: relative;
+	width: 635px;
+	height: 410px;
+	float: left;
+}
+.content .wrap2 .w2_list .list3{
+	position: relative;
+	width: 635px;
+	height: 410px;
+	float: left;
+}
+.content .wrap2 .w2_list .list4{
+	position: relative;
+	width: 635px;
+	height: 410px;
+	float: left;
+}
+.content .wrap4 .w4_left{
+	width: 167px;
+	height: 740px;
+	position: relative;
+	float: left;
+	top: 20px;
+	left: 0;
+}
+
+
+.content .wrap2 .w2_list .list_content1{
+	background: #f6f8fa;
+	position: relative;
+	border: #C0d0de solid;
+	width: 491px;
+	height: 404px;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+}
+.content .wrap2 .w2_list .list_content1 ul{
+	margin: 40px 0 0 55px;
+	color: #333333;
+}
+.content .wrap2 .w2_list .list_content1 ul span{
+	float: right;
+	font-size: 14px;
+	color: #909090;
+	margin-right: 35px;
+}
+.content .wrap2 .w2_list li:before{
+	content: "";
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	border: 2px solid #c1d1df;
+	display: inline-block;
+	position: absolute;
+	margin-top: 13px;
+	margin-left: -21px;
+}
+.content .wrap2 .w2_list .list_head1{
+	width: 104px;
+	height: 353px;
+	float: left;
+	position: relative;
+	border: 5px solid #667d92;
+}
+.content .wrap2 .w2_list .list_head1 .head1_1{
+	position: relative;
+	width: 59px;
+	height: 345px;
+	float: left;
+	font-size: 30px;
+	color: #474747;
+	line-height: 34px;
+	text-align: center;
+	padding: 6px;
+	border-left: 2px solid #667D92;
+	overflow: hidden;
+}
+.content .wrap2 .w2_list .list_head1 .head1_1 p{
+	position: absolute;
+	width: 59px;
+	margin-top: 25px;
+}
+.content .wrap2 .w2_list .list_head1 .head1_2{
+	position: relative;
+	font-size: 14px;
+	color: #474747;
+	height: 353px;
+	float: left;
+	width: 30px;
+}
+.content .wrap2 .w2_list .list_head1 .head1_2 .head1_2_pic{
+	width: 100%;
+	height: 116px;
+	background: url(../images/images5/学院培训.jpg) no-repeat;
+	background-size: cover;
+}
+.content .wrap2 .w2_list .list_head1 .head1_2 p{
+	position: absolute;
+	bottom: 8px;
+	letter-spacing: 10px;
+	line-height: 14px;
+	text-align: center;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.content .wrap2 .w2_list .list_head1 .head1_2 p:hover{
+	color: #667D92;
+}
+
+
+.content .wrap2 .w2_list .list_content2{
+	background: #f6f8fa;
+	position: relative;
+	border: #C0d0de solid;
+	width: 491px;
+	height: 404px;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+}
+.content .wrap2 .w2_list .list_content2 ul{
+	margin: 40px 0 0 55px;
+	color: #333333;
+}
+.content .wrap2 .w2_list .list_content2 ul span{
+	float: right;
+	font-size: 14px;
+	color: #909090;
+	margin-right: 35px;
+}
+.content .wrap2 .w2_list .list_head2{
+	height: 353px;
+	float: left;
+	position: relative;
+	border: 5px solid #667d92;
+}
+.content .wrap2 .w2_list .list_head2 .head2_1{
+	width: 59px;
+	height: 345px;
+	float: left;
+	font-size: 30px;
+	color: #474747;
+	line-height: 34px;
+	text-align: center;
+	padding: 6px;
+	border-left: 2px solid #667D92;
+}
+.content .wrap2 .w2_list .list_head2 .head2_1 p{
+	position: absolute;
+	width: 59px;
+	margin-top: 25px;
+}
+.content .wrap2 .w2_list .list_head2 .head2_2{
+	position: relative;
+	font-size: 14px;
+	color: #474747;
+	height: 353px;
+	float: left;
+	width: 30px;
+}
+.content .wrap2 .w2_list .list_head2 .head2_2 .head2_2_pic{
+	width: 100%;
+	height: 116px;
+	background: url(../images/images5/学院培训.jpg) no-repeat;
+	background-size: cover;
+}
+.content .wrap2 .w2_list .list_head2 .head2_2 p{
+	position: absolute;
+	bottom: 8px;
+	letter-spacing: 10px;
+	line-height: 14px;
+	text-align: center;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.content .wrap2 .w2_list .list_head2 .head2_2 p:hover{
+	color: #667D92;
+}
+
+.content .wrap2 .w2_list .w2_list_3{
+	width: 49%;
+	position: relative;
+	margin-top: 30px;
+}
+.content .wrap2 .w2_list .list_head3{
+	height: 100%;
+	float: left;
+	position: relative;
+	border: 5px solid #667d92;
+}
+.content .wrap2 .w2_list .list_head3 .head3_1{
+	width: 59px;
+	height: 353px;
+	float: left;
+	font-size: 30px;
+	color: #474747;
+	line-height: 34px;
+	text-align: center;
+	padding: 6px;
+	border-left: 2px solid #667D92;
+}
+.content .wrap2 .w2_list .list_head3 .head3_1 p{
+	position: absolute;
+	width: 59px;
+	margin-top: 25px;
+}
+.content .wrap2 .w2_list .list_head3 .head3_2{
+	position: relative;
+	font-size: 14px;
+	color: #474747;
+	height: 353px;
+	float: left;
+	width: 30px;
+}
+.content .wrap2 .w2_list .list_head3 .head3_2 .head3_2_pic{
+	width: 100%;
+	height: 116px;
+	background: url(../images/images5/学院培训.jpg) no-repeat;
+	background-size: cover;
+}
+.content .wrap2 .w2_list .list_head3 .head3_2 p{
+	position: absolute;
+	bottom: 8px;
+	letter-spacing: 10px;
+	line-height: 14px;
+	text-align: center;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.content .wrap2 .w2_list .list_head3 .head3_2 p:hover{
+	color: #667D92;
+}
+.content .wrap2 .w2_list .list_content3{
+	background: #f6f8fa;
+	border: #C0d0de solid;
+	width: 491px;
+	height: 404px;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+}
+.content .wrap2 .w2_list .list_content3 ul{
+	margin: 40px 0 0 55px;
+	color: #333333;
+}
+.content .wrap2 .w2_list .list_content3 ul span{
+	float: right;
+	font-size: 14px;
+	color: #909090;
+	margin-right: 35px;
+}
+.content .wrap2 .w2_list .list_content4{
+	background: #f6f8fa;
+	position: relative;
+	border: #C0d0de solid;
+	width: 491px;
+	height: 404px;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+}
+.content .wrap2 .w2_list .list_content4 ul{
+	margin: 40px 0 0 55px;
+	color: #333333;
+}
+.content .wrap2 .w2_list .list_content4 ul span{
+	float: right;
+	font-size: 14px;
+	color: #909090;
+	margin-right: 35px;
+}
+.content .wrap2 .w2_list .list_head4{
+	height: 353px;
+	float: left;
+	position: relative;
+	border: 5px solid #667d92;
+}
+.content .wrap2 .w2_list .list_head4 .head4_1{
+	width: 59px;
+	height: 345px;
+	float: left;
+	font-size: 30px;
+	color: #474747;
+	line-height: 34px;
+	text-align: center;
+	padding: 6px;
+	border-left: 2px solid #667D92;
+}
+.content .wrap2 .w2_list .list_head4 .head4_1 p{
+	position: absolute;
+	width: 59px;
+	margin-top: 25px;
+}
+.content .wrap2 .w2_list .list_head4 .head4_2{
+	position: relative;
+	font-size: 14px;
+	color: #474747;
+	height: 353px;
+	float: left;
+	width: 30px;
+}
+.content .wrap2 .w2_list .list_head4 .head4_2 .head4_2_pic{
+	width: 100%;
+	height: 116px;
+	background: url(../images/images5/学院培训.jpg) no-repeat;
+	background-size: cover;
+}
+.content .wrap2 .w2_list .list_head4 .head4_2 p{
+	position: absolute;
+	bottom: 8px;
+	letter-spacing: 10px;
+	line-height: 14px;
+	text-align: center;
+	margin-left: 8px;
+	cursor: pointer;
+}
+.content .wrap2 .w2_list .list_head4 .head4_2 p:hover{
+	color: #667D92;
+}
+
+.content .wrap2 .w2_list .owf{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 71%;
+}
+.content .wrap2 .w2_list .owf2{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 70%;
+}
+.content .wrap2 .w2_list .date1{
+	position: absolute;
+	top: 43px;
+	right: 63px;
+	color: #909090;
+}
+.content .wrap2 .w2_list .date2{
+	position: absolute;
+	top: 74px;
+	right: 63px;
+	color: #909090;
+}
+.content .wrap2 .w2_list .date3{
+	position: absolute;
+	top: 107px;
+	right: 63px;
+	color: #909090;
+}
+.content .wrap2 .w2_list .date4{
+	position: absolute;
+	top: 139px;
+	right: 63px;
+	color: #909090;
+}
+.content .wrap2 .w2_list .date5{
+	position: absolute;
+	top: 170px;
+	right: 35px;
+	color: #909090;
+}
+.content .wrap3{
+	width: 1258px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto 0;
+	top: 30px;
+}
+.content .wrap3 .w3_head{
+	position: relative;
+	text-align: center;
+	font-size: 26px;
+	top: 60px;
+	color: #474747;
+}
+.content .wrap3 .w3_content{
+	position: relative;
+	left: -50px;
+}
+.content .wrap3 .w3_content #w3_pic{
+	width: 487px;
+	height: 367px;
+	float: left;
+	overflow: hidden;
+	margin-top: 100px;
+}
+.content .wrap3 .w3_content #w3_pic ul li{
+	list-style: none;
+}
+.content .wrap3 .w3_content .w3_text{
+	position: relative;
+	float: left;
+	width: 700px;
+	left: 60px;
+	top: 50px;
+}
+.content .wrap3 .w3_content .w3_text .text1_title{
+	font-size: 18px;
+	color: #474747;
+}
+.content .wrap3 .w3_content .w3_text .text1_date:after{
+	content: "";
+	width: 85px;
+	height: 13px;
+	background: url(../images/images5/国内外交流合作时间条.png) no-repeat right center;
+	display: inline-block;
+	margin-left: 20px;
+	transition: all .6s linear;
+}
+.content .wrap3 .w3_text .w3_text_1:hover .text1_date:after{
+	width: 120px;
+	transition: .6s;
+	transition-timing-function: ease-in-out;
+	transform: scaleX(1);
+}
+.content .wrap3 .w3_text .w3_text_1:hover .text1_title{
+	color: #9d8540;
+}
+.content .wrap3 .w3_content .w3_text .text1_date,.text1_content{
+	font-size: 14px;
+	color: #707070;
+	margin-top: 10px;
+}
+
+
+
+.content .wrap3 .w3_content .w3_text .text2_title{
+	font-size: 18px;
+	color: #474747;
+}
+.content .wrap3 .w3_content .w3_text .text2_date:after{
+	content: "";
+	width: 85px;
+	height: 13px;
+	background: url(../images/images5/国内外交流合作时间条.png) no-repeat right center;
+	display: inline-block;
+	margin-left: 20px;
+	transition: all .6s linear;
+}
+.content .wrap3 .w3_text .w3_text_2:hover .text2_date:after{
+	width: 120px;
+	transition: .6s;
+	transition-timing-function: ease-in-out;
+	transform: scaleX(1);
+}
+.content .wrap3 .w3_text .w3_text_2:hover .text2_title{
+	color: #9d8540;
+}
+.content .wrap3 .w3_content .w3_text .text2_date,.text2_content{
+	font-size: 14px;
+	color: #707070;
+	margin-top: 10px;
+}
+
+.content .wrap3 .w3_content .w3_text .text3_title{
+	font-size: 18px;
+	color: #474747;
+}
+.content .wrap3 .w3_content .w3_text .text3_date:after{
+	content: "";
+	width: 85px;
+	height: 13px;
+	background: url(../images/images5/国内外交流合作时间条.png) no-repeat right center;
+	display: inline-block;
+	margin-left: 20px;
+	transition: all .6s linear;
+}
+.content .wrap3 .w3_text .w3_text_3:hover .text3_date:after{
+	width: 120px;
+	transition: .6s;
+	transition-timing-function: ease-in-out;
+	transform: scaleX(1);
+}
+.content .wrap3 .w3_text .w3_text_3:hover .text3_title{
+	color: #9d8540;
+}
+.content .wrap3 .w3_content .w3_text .text3_date,.text3_content{
+	font-size: 14px;
+	color: #707070;
+	margin-top: 10px;
+}
+.content .wrap3 .w3_content .w3_text .w3_text_1,.w3_text_2,.w3_text_3{
+	margin-top: 50px;
+}
+.content .wrap3 .w3_content .w3_foot{
+	width: 100%;
+	position: relative;
+	float: left;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-size: 14px;
+	color: #474747;
+}
+.content .wrap3 .w3_content .w3_foot .foot_img{
+	background: url(../images/images5/更多详细.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 120px;
+	height: 37px;
+	margin: 0 auto 0;
+}
+.content .wrap3 .w3_content .w3_foot .foot_img p{
+	padding-top: 8px;
+}
+.content .wrap4{
+	position: relative;
+	width: 1258px;
+	height: 740px;
+	background: url(../images/images5/大事件.jpg) no-repeat center;
+	margin: 0 auto 0;
+	margin-top: 100px;
+}
+.content .wrap4 .w4_content{
+	width: 1258px;
+	height: 100%;
+	position: relative;
+	margin: 0 auto 0;
+}
+.content .wrap4 .w4_left{
+	width: 167px;
+	position: absolute;
+	float: left;
+	/*left: 70px;*/
+}
+.content .wrap4 .w4_left .w4_pic{
+	position: absolute;
+	left: 70px;
+	bottom: 0;
+}
+.w4_left li{
+	position: relative;
+	left: 0px;
+}
+.content .wrap4 .w4_right{
+	width: 1024px;
+	height: 520px;
+	position: absolute;
+	overflow-y: scroll;
+	top: 160px;
+	left: 210px;
+	font-size: 14px;
+	color: #474747;
+	text-indent: 40px;
+	line-height: 40px;
+}
+.content .wrap4 .w4_right::-webkit-scrollbar-thumb{
+	border-radius: 50px;
+	background: mediumpurple;
+}
+#pressUp,#pressDown{
+	width: 28px;
+	height: 28px;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	position: absolute;
+	left: 70px;
+	opacity: 0;
+	z-index: 1;
+}
+#pressUp{
+	/*left: 0;*/
+	top: 273px;
+}
+#pressDown{
+	/*left: 0;*/
+	top: 589px;
+}
+.date{
+	position: relative;
+	text-align: center;
+	height: 640px;
+	width: 167px;
+	vertical-align: middle;
+	color: white;
+	font-size: 50px;
+	line-height: 740px;
+	left: -75px;
+	top: 60px;
+	animation-duration: .6s;
+	animation-name: date;
+	animation-fill-mode: forwards;
+	list-style: none;
+	float: left;
+}
+@keyframes date{
+	0%{
+		opacity: 0;
+		transform: scale(0,0);
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1,1);
+	}
+}
+/* 轮播图 */
+#w3_pic{
+    position: relative;
+    padding: 0;
+    width: 490px;
+    height: 350px;
+    margin-top: -35px;
+	margin-left: 50px;
+}
+
+.show_area{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 490px;
+    height: 350px;
+    overflow: hidden;
+}
+
+#img_ul{
+    position: absolute;
+    width: 8000px;           /*多留出一张图片的宽度！*/
+    list-style: none;
+}
+#img_ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 490px;
+    height: 350px;
+}
+#img_ul li img{
+   width: 490px;
+   height: 350px;
+}
+
+#litCir_ul{
+    position: absolute;
+	margin-left: 218px;
+    padding: 0;
+    bottom: 10px;
+    list-style: none;
+}
+#litCir_ul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%; 
+    margin-left:10px ;
+    cursor: pointer;
+}
+
+li.active{
+    background-color: #ccc;
+}
+li.quiet{
+    background-color: aliceblue;
+}
+
+#buttons{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+#buttons span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Simsun;
+    font-size: 30px;
+    border: 1px solid #fff;
+    opacity: 0.3;
+    cursor: pointer;
+    color: #fff;
+    background: black;
+}
+#left{
+    left: 5px;
+}
+#right{
+    left: 100%;
+    margin-left: -45px;
+}
+.footer{
+	min-width: 1258px;
+	position: relative;
+	height: 182px;
+	margin: 0 auto 0;
+	background: #272727 center;
+}

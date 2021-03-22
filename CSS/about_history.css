@@ -1,0 +1,570 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+  width:1258px;
+  /*min-width:1258px;*/
+  /*max-width:100%;*/
+  height:100%;
+  margin:0 auto 0; 
+  text-align:center;
+  overflow-x: hidden;
+  /*z-index: 0;*/
+}
+
+.wrap {
+  width: 1258px;
+  height: 70px;
+  text-align: left;
+  font-family: 微软雅黑,'Heiti SC',黑体,Arial;
+  font-size: 14px;
+  color: #707070;
+  line-height: 50px;
+}
+
+/*搜索栏*/
+.u,input {
+  margin:0;
+  padding:0;
+  -webkit-text-size-adjust: none
+}
+.nice-select{
+  z-index: 2;
+}
+
+input { 
+  font-size: 14px; 
+  font-family: "微软雅黑", "Microsoft Yahei"; 
+}
+.wrap2 { 
+  width: 1258px; 
+  height: 55px;
+  float: left;
+  position: relative;
+  margin: 20px 0 0 0 ; 
+}
+.nice-select { 
+  width: 200px; 
+  height: 38px; 
+  border: 1px solid #999; 
+  position: relative; 
+  box-shadow: 0 0 5px #999; 
+  background: #fff url(../images/images6/z59.jpg) no-repeat right center; 
+  cursor: pointer; 
+}
+.sousuo{
+  width: 100px; 
+  height: 38px;
+  position: relative; 
+  left:350px;
+  top: -80px;
+
+}
+.nice-select input { 
+  display: block; 
+  width: 100%; 
+  height: 38px; 
+  line-height: 38px \9; 
+  border: 0; 
+  outline: 0; 
+  background: none; 
+  cursor: pointer; 
+}
+.nice-select ul { 
+  width: 100%; 
+  display: none; 
+  position: absolute; 
+  left: -1px; 
+  top: 38px; 
+  overflow: hidden; 
+  background-color: #fff; 
+  max-height: 150px; 
+  overflow-y: auto; 
+  border: 1px solid #999; 
+  border-top: 0; 
+  box-shadow: 0 3px 5px #999; 
+  z-index: 9999; 
+}
+.nice-select ul li { 
+  height: 30px; 
+  line-height: 30px; 
+  overflow: hidden; 
+  padding: 0 10px; 
+  cursor: pointer; 
+}
+.nice-select ul li.on { 
+  background-color: #e0e0e0; 
+}
+
+
+
+
+/*十个图*/
+#oneModule{
+	width: 1258px;
+	height: 1000px;
+	background:url("../images/images6/z44.jpg") no-repeat;
+	position: relative;
+	margin:50px auto 0;
+}
+/*十个图*/
+.container-tile .content {
+  min-height: 100vh;
+  max-width: 1258px;
+  display: flex;
+}
+
+.container-lyrics .content {
+  margin: 2em auto 5em;
+  padding: 20px;
+  width: 1258px;
+  height: 679px;
+}
+
+.tile ul {
+  display: none;
+}
+
+.tile {
+  width: 127px;
+  height: 679px;
+  transition: transform .1s;
+  position: relative;
+  margin:0 0 0 0;
+  cursor: pointer;
+}
+
+.tile:hover {
+  opacity: 0.7;
+}
+
+.container-master {
+  position: relative;
+  height: 700px;
+  width: 1258px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.container-lyrics, .container-tile {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transition: .8s ease;
+}
+
+.container-tile {
+  left: 0;
+}
+
+.container-lyrics {
+  left: 100%;
+}
+
+.back {
+  position: relative;
+  top: -52px;
+  left: -580px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.lyrics-title {
+  font-family: 'Microsoft YaHei','Lantinghei SC','Open Sans',Arial,'Hiragino Sans GB','STHeiti','WenQuanYi Micro Hei','SimSun',sans-serif;
+  font-size: 45px;
+  letter-spacing: 1px;
+  position: relative;
+  text-align: right;
+  margin: 0 0 25px;
+  transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
+  top: -250px;
+}
+
+.lyrics-card {
+  margin: -760px 0 0 100px;
+  border-radius: 10px;
+  font: 18px/1.5 'Microsoft YaHei','Lantinghei SC','Open Sans',Arial,'Hiragino Sans GB','STHeiti','WenQuanYi Micro Hei','SimSun',sans-serif;
+  top: 20px;
+  position: relative;
+  opacity: 0;
+}
+
+.container-master.toggled .container-tile {
+  left: 100%;
+}
+.container-master.toggled .container-lyrics {
+  left: 0;
+}
+.container-master.toggled .lyrics-title {
+  top: 0;
+}
+
+
+
+
+/*感受故宫大事件*/
+#twoModule{
+	width: 1258px;
+	height: 500px;
+	position: relative;
+	margin:-200px auto 0;
+ 
+}
+/*感受故宫大事件*/
+.tM{
+  width: 132px;
+  height: 141px;
+  float: left;
+  position:absolute;
+  top: 177px;
+}
+.t1{
+  left: 36px;
+}
+.t1:hover{
+  background:#F8F8FF;
+  opacity:0.35;
+}
+.t2{
+  left: 216px;
+}
+.t2:hover{
+  background:#F8F8FF;
+  opacity:0.35;
+}
+.t3{
+  left: 394px;
+}
+.t3:hover{
+  background:#F8F8FF;
+  opacity:0.35;
+}
+.t4{
+  left: 572px;
+}
+.t4:hover{
+  background:#F8F8FF;
+  opacity:0.35;
+}
+.t5{
+  left: 748px;
+}
+.t5:hover{
+  background:#F8F8FF;
+  opacity:0.35;
+}
+.t6{
+  left: 928px;
+}
+.t6:hover{
+  background:#F8F8FF;
+  opacity:0.35;
+}
+.t7{
+  left: 1104px;
+}
+.t7:hover{
+  background:#F8F8FF;
+  opacity:0.35;
+}
+
+
+
+/*底部四个图*/
+.onBottom_1{
+	width: 1258px;
+	height: 140px;
+	position: relative;
+	margin: -100px auto 140px;
+}
+/*四个图*/
+
+.D_nav{
+  position: relative;
+  width: 100%;
+  height: 270px;
+}
+.D_nav .D_pos{
+  width: 100%;
+  position: relative; 
+  bottom: 0;
+}
+.D_nav .nav_1,.nav_2,.nav_3,.nav_4{
+  width: 25%;
+  float: left;
+  height: 225px;
+}
+.D_nav .nav_1{
+  background: url(../images/images6/专家名录bck.jpg);
+}
+.D_nav .nav_2{
+  background: url(../images/images6/故宫研究院bck.jpg);
+  
+}
+.D_nav .nav_3{
+  background: url(../images/images6/故宫学院bck.jpg);
+}
+.D_nav .nav_4{
+  background: url(../images/images6/其他机构bck.jpg);
+}
+.D_nav .D_pos .nav_1 .trans{
+  transition: all .2s linear;
+  margin:0 0 0 -280px;
+}
+.D_nav .D_pos .nav_2 .trans{
+  transition: all .2s linear;
+  margin:0 0 0 -280px;
+}
+.D_nav .D_pos .nav_3 .trans{
+  transition: all .2s linear;
+  margin:0 0 0 -280px;
+}
+.D_nav .D_pos .nav_4 .trans{
+  transition: all .2s linear;
+  margin:0 0 0 -280px;
+}
+.D_nav .D_pos .nav_1:hover .trans{
+  transition: .2s;
+  transition-timing-function: ease-in-out;
+  transform: translateY(-7px);
+}
+.D_nav .D_pos .nav_2:hover .trans{
+  transition: .2s;
+  transition-timing-function: ease-in-out;
+  transform: translateY(-7px);
+}
+.D_nav .D_pos .nav_3:hover .trans{
+  transition: .2s;
+  transition-timing-function: ease-in-out;
+  transform: translateY(-7px);
+}
+.D_nav .D_pos .nav_4:hover .trans{
+  transition: .2s;
+  transition-timing-function: ease-in-out;
+  transform: translateY(-7px);
+}
+.D_nav img{
+  width: 126px;
+  position: absolute;
+  margin: 30px 85px;
+}
+.D_nav span{
+  width: 100px;
+  font-size: 18px;
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  margin: 160px 100px;
+}
+
+
+
+/*搜索栏*/
+.wrap2{
+    width: 1258px;
+    height: 50px;
+    font-size: 14px;
+    color: #707070;
+    /*border: 1px solid red;*/
+}
+.w2_bottom{
+    width: 100%;
+    height: 6px;
+    position: relative;
+    background: url('../images/images6/w2_content底边框.png') no-repeat center;
+}
+.wrap2 .w2_input{
+    width: 1100px;
+    height: 60px;
+    padding: 0 0 0 158px;
+}
+.wrap2 .w2_input ul li{
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.wrap2 .w2_input .input1{
+    width: 270px;
+    height: 40px;
+    position: relative;
+    background: url('../images/images6/input边框.png');
+    background-size:100% 100%;
+}
+.wrap2 .w2_input .input1:before{
+    background: url('../images/images6/input边框.png') no-repeat left;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content .wrap2 .w2_input .input1:after{
+    background: url('../images/images6/input边框.png') no-repeat right;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.wrap2 .w2_input .input1 span{
+    margin: 0 0 0 11px;
+    float: left;
+    line-height: 40px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.wrap2 .w2_input .input1 .input_content{
+    width: 140px;
+    padding: 7px 0 7px 5px;
+    float: left;
+    height: 20px;
+    display: inline-block;
+    margin-top: 4px;
+    border: none;
+    outline: none;
+}
+.wrap2 .w2_input .select1 .select1_1{
+    width: 180px;
+    height: 40px;
+    position: relative;
+    background: url('../images/images6/select边框1.png');
+    -webkit-appearance: none;
+}
+.wrap2 .w2_input .select1 .select1_1 select{
+    float: left;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #707070;
+    cursor: pointer;
+}.wrap2 .w2_input .select1 .select1_1:before{
+    background: url('../images/images6/select边框2.png') no-repeat left center;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+} 
+.wrap2 .w2_input .select1 .select1_1:after{
+    background: url('../images/images6/select边框2.png') no-repeat right center;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.wrap2 .w2_input .select2 .select2_2{
+    width: 180px;
+    height: 40px;
+    position: relative;
+    background: url('../images/images6/select边框1.png');
+    -webkit-appearance: none;
+}
+.wrap2 .w2_input .select2 .select2_2 select{
+    float: left;
+    width: 130px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #707070;
+    cursor: pointer;
+}
+.wrap2 .w2_input .select2 .select2_2:before{
+    background: url('../images/images6/select边框2.png') no-repeat left center;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.wrap2 .w2_input .select2 .select2_2:after{
+    background: url(../images/images6/select边框2.png) no-repeat right center;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.wrap2 .w2_input .select3 .select3_3:before{
+    background: url('../images/images6/select边框2.png') no-repeat left center;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.wrap2 .w2_input .select3 .select3_3:after{
+    background: url('../images/images6/select边框2.png') no-repeat right center;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.wrap2 .w2_input .Radio:before{
+    background: url('../images/images6/单选框.png') left top no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    content: "";
+    margin: 12px 10px 0 0;
+}
+.wrap2 .w2_input .Radio p{
+    margin-top: 10px;
+    display: inline-block;
+}.wrap2 .w2_input .Search{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    margin-left: -70px;
+    background: url('../images/images6/搜索.png') no-repeat center;
+}
+.wrap2 .w2_input .Search:before{
+    background: url('../images/images6/select边框2.png') no-repeat left center;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+}.wrap2 .w2_input .Search:after{
+    background: url('../images/images6/select边框2.png') no-repeat right center;
+    width: 6px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+}.wrap2 .w2_input .Search p{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.wrap2 .w2_content{
+    width: 1258px;
+    height: 64px;
+    margin: 0 auto 0;
+    background: #f3f3f3;
+    margin-top: 30px;
+}

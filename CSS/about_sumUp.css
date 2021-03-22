@@ -1,0 +1,400 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+  width:1258px;
+  min-width:1258px;
+  max-width:100%;
+  height:100%;
+  margin:0 auto; 
+  color: #474747;
+  text-align:center;
+  background: url("../images/images6/20.png");
+}
+.header .h_tu2 img:hover{
+	position: relative;
+	top: -20px;
+}
+.header .h_tu3 img:hover{
+	position: relative;
+	top: -28px;
+}
+.header .h_tu4 img:hover{
+	position: relative;
+	top: -22px;
+}
+.wrap {
+    width: 1258px;
+	height: 70px;
+	text-align: left;
+	font-family: 微软雅黑,'Heiti SC',黑体,Arial;
+	font-size: 14px;
+	color: #707070;
+	line-height: 50px;
+}
+
+
+/*故宫博物院是一座特殊的博物馆*/
+#module1{
+	width: 1258px;
+	height: 200px;
+	background-position: auto;
+	margin:35px auto 0;
+	z-index: 1;
+}
+
+
+
+/*大图一*/
+#module2{
+	width: 1258px;
+	height: 458px;
+	background:url('../images/images6/z2.jpg') no-repeat;
+	margin:0 auto  0;
+	background-position: auto;
+	/*border: 1px solid red;*/
+}
+
+#module3{
+	width: 1258px;
+	height: 200px;
+	margin:-150px auto 0px;
+	position: relative;
+	/*border: 1px solid red;*/
+}
+#module3 img:hover{
+	opacity:0.68;
+}
+/*三张小图*/
+.module3_1,.module3_2,.module3_3{
+	width: 120px;
+	height: 101px;
+	float: left;
+	margin: 100px 0 100px 220px;
+	position: relative;
+}
+#module4{
+	min-width: 1258px;
+	min-height: 670px;
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+/*轮播图*/
+
+#parent{
+    
+    position: relative;
+    margin: 50px auto;
+    padding: 0;
+    width: 850px;
+    height: 554px;
+    top: 65px;
+    left: 0;
+    
+}
+
+#uls{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 850px;
+    height: 554px;
+    overflow: hidden;
+}
+
+#img_ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 8000px;           /*多留出一张图片的宽度！*/
+    list-style: none;
+}
+#img_ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 850px;
+    height: 554px;
+}
+#img_ul li img{
+   width: 850px;
+    height: 554px;
+}
+
+#litCir_ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+    bottom: 10px;
+    list-style: none;
+}
+#litCir_ul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%; 
+    margin-left:10px ;
+    cursor: pointer;
+}
+
+li.active{
+    background-color: white;
+}
+li.quiet{
+    background-color: #9f7b4b;
+}
+
+#buttons{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+#buttons span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Simsun;
+    font-size: 30px;
+    border: 1px solid #fff;
+    opacity: 0.3;
+    cursor: pointer;
+    color: #fff;
+    background: black;
+}
+#left{
+    left: 5px;
+}
+#right{
+    left: 100%;
+    margin-left: -45px;
+}
+
+
+/*以上为轮播图*/
+
+
+/*超大块*/
+#module5{
+	min-width: 1258px;
+	min-height: 2100px;
+	position:relative;
+	top: 170px;
+	margin:0 auto 0;
+}
+/*图书馆,试听馆,游戏馆,文创馆*/
+
+.box{
+			position: relative;
+		}
+.mask{
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: none;
+}
+
+.module5_1,.module5_2,.module5_3,.module5_4{
+	float: left;
+	position: absolute;
+	height: 481px;
+	width: 25%;
+}
+.module5_1{
+	left: 5%;
+}
+.module5_2{
+	left: 28%;
+}
+.module5_3{
+	left: 51%; 
+}
+.module5_4{
+	left: 74%;
+}
+
+.tupianwenzi,.xianhetu{
+	width: 45%;
+	height: 662px;
+	float: left;
+	position: absolute;
+}
+.tupianwenzi{
+	background:#F4EFE4;
+	top: 730px;
+	left: 5%;
+	font-size: 20px;
+	text-indent:2em;
+}
+
+.xianhetu{
+	background:url("../images/images6/z13.jpg") no-repeat;
+	top: 730px;
+	left: 51%;
+}
+
+/*故宫APP*/
+.apptupian1{
+	width:1100px;
+	height:380px;
+	border: 1px solid gray;
+	margin:100px auto;
+	background:white;
+}
+.apptupian2{
+	width:1080px;
+	height:360px;
+	border: 1px solid gray;
+	margin:9px 0 0 9px;
+}
+
+.apptupian1 .apptupian2 li{
+	float: left;
+	margin:15px 0 0 43px;
+}
+
+.Vgugong1{
+	width: 825px;
+	height: 225px;
+	border: 1px solid gray;
+	margin:-85px 0 0 78px;
+}
+.Vgugong2{
+    width: 800px;
+	height: 200px;
+	border: 1px solid gray;
+	margin:12px 0 0 12px;
+	background: url("../images/images6/21.png");
+}
+
+.Vgugong2 .im1{
+	position: absolute;
+	margin:42px 0 0 -350px;
+}
+
+.Vgugong2 .im2{
+	position: absolute;
+	margin:-28px 0 0 0;
+}
+.Vgugong2 p{
+	position: absolute;
+	margin:50px 0 0 180px;
+}
+
+
+.Vgugong3{
+	width: 258px;
+    height: 225px;
+    border: 1px solid gray;
+    margin: -228px 0 0 920px;
+}
+.Vgugong4{
+    width: 235px;
+    height: 200px;
+    border: 1px solid gray;
+    margin: 12px 0 0 12px;
+    line-height:85px;
+    font-size: 20px;
+    background:white;
+}
+
+
+
+
+
+
+
+#module6{
+	min-width: 1258px;
+	min-height: 955px;
+	position: relative;
+	border: 1px solid white;
+	margin:100px auto 0;
+}
+
+.le{
+	width: 50%;
+	height: 497px;
+	/*left: ;*/
+	float: left;
+	/*background:red;*/
+
+}
+
+.ri{
+	width: 50%;
+	height: 497px;
+	float: left;
+	position: absolute;
+	left: 47%;
+	background:url("../images/images6/z15.jpg");
+	/*background:yellow;*/
+}
+
+.btn{
+	width: 768px;
+	height: 560px;
+	background:url("../images/images6/z16.jpg") no-repeat;
+	background-position: bottom;
+	margin:540px auto 0;
+}
+
+.tu1,.tu2{
+	width: 400px;
+	height: 101px;
+	float: left;
+	position: absolute;
+	top: 750px;
+	font-size: 34px;
+	line-height:101px;
+	color: gray;
+
+}
+.tu1 .ziti{
+	width: 400px;
+	height: 101px;
+	float: left;
+	position: absolute;
+	top: 40px;
+	left:40px;
+	font-size: 16px;
+	line-height:101px;
+	color: gray;
+}
+.tu2 .ziti{
+	width: 400px;
+	height: 101px;
+	float: left;
+	position: absolute;
+	top:40px;
+	font-size: 16px;
+	line-height:101px;
+	color: gray;
+}
+
+
+.tu1{
+	background:url('../images/images6/z19.jpg') no-repeat;
+	left: 8%;	
+}
+
+.tu2{
+	background:url('../images/images6/z20.jpg') no-repeat;
+	left: 69%;	
+}
+
+

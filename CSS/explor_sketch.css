@@ -1,0 +1,370 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 1258px;
+	margin: auto;
+}
+.head,.m_top,.m_bottom{
+	font-family: "宋体";
+}
+a{
+	text-decoration: none;
+	color: #707070;
+}
+.head,.m_top,.m_bottom,#nav1{
+	width: 1258px;
+	margin: 0 auto;
+}
+.head{
+	height: 600px;
+	padding: 0 0 50px 0;
+	position: relative;
+	
+}
+.head .list1{
+	width: 4000px;
+	list-style: none;
+	overflow: hidden;
+}
+.head .list1 li{
+	/* width: 1258px; */
+	float: left;
+	position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+}
+.head .list1 li .t1{
+	font-size: 16px;
+    color: #fff;
+	position: absolute;
+	bottom: 36px;
+    right: 57px;
+}
+.cur{
+    position:absolute;
+    bottom:50px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+.cur span.active{
+    background:url("../images/images4/long.png")  no-repeat;
+    background-size: 40px 100%;
+    background-position:-20px 0;
+    
+}
+.cur span{
+    display: inline-block;
+    background: url('../images/images4/long.png') no-repeat;
+    background-size: 40px 100%;
+    width: 20px;
+    height: 20px;
+  }
+.head img{
+	width: 1258px;
+	height: 600px;
+}
+.head .prev,.head .next{
+	height: 60px;
+    width: 29px;
+    color: #fff;
+    cursor: pointer;
+}
+.head .prev{
+	position: absolute;
+	left: 22px;
+    top: 252px;
+}
+.head .next{
+	position: absolute;
+	right: 22px;
+    top: 252px;
+}
+#nav1{
+	height: 70px;
+	z-index:33;
+	background:url("../images/images4/bg.jpg");
+	display: none;
+}
+#nav1 .imgA{
+	width: 200px;
+	height: 75px;
+}
+#nav1 .box{
+	width: 387px;
+	height: 40px;
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+#nav1 .box .imgB,#nav1 .box .imgC{
+	width: 30px;
+	height: 30px;
+	margin: 6px 26px 0 0;
+	position: absolute;
+	top: 4px;
+}
+#nav1 .imgD{
+	width: 30px;
+	height: 30px;
+}
+#nav1 .imgbox{
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: 5px 26px 0 0;
+	display: inline-block;
+	position: absolute;
+	top: 4px;
+	left:322px;
+}
+#nav1 .imgB{
+	position: absolute;
+	top: 4px;
+	left: 200px;
+	cursor: pointer;
+}
+#nav1 .imgC{
+	position: absolute;
+	top: 4px;
+	left: 260px;
+	cursor: pointer;
+}
+#nav1 .imgD{
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+#nav1 .box span{
+	font-size: 16px;
+	color: #fff;
+	line-height: 70px;
+	display: inline-block;
+	margin: 0 28px 0 26px;
+	position: absolute;
+	top: -12px;
+}
+#nav1 img:hover{
+	animation: img1Move 1s ease-out;
+}
+@keyframes img1Move{
+	0%{
+		transform: scale(0.8)
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+.m_top{
+	height: 931px;
+}
+.m_top img{
+	width: 283px;
+	height: 174px;
+	cursor: pointer;
+	transition: 1s ease-in;
+	overflow: hidden;	
+}
+.m_top img:hover{
+	transform: scale(1.05, 1.05);
+}
+.m_top .pic1{
+	/* margin-left: 20px; */
+}
+.m_top .pic1 div{
+	width: 283px;
+	height: 234px;
+	position: relative;
+	margin: 0 30px 0 0;
+	float: left;
+	cursor: pointer; 
+	overflow: hidden; 
+}
+.m_top .pic2 div{
+	width: 283px;
+	height: 234px;
+	position: relative;
+	margin: 0 30px 0 0;
+	float: left;
+	cursor: pointer; 
+	overflow: hidden;
+}
+.m_top .pic3 div{
+	width: 283px;
+	height: 234px;
+	position: relative;
+	margin: 0 30px 0 0;
+	float: left;
+	cursor: pointer; 
+	overflow: hidden;
+}
+.m_top h2{
+	font-size: 32px;
+    color: #715125;
+    line-height: 70px;
+    font-weight: 300;
+    margin: 30px 0 0 10px;
+}
+.m_top p{
+	font-size: 20px;
+    margin: 10px 0 0 0;
+    line-height: 30px;
+    color: #715125;
+    cursor: pointer;
+}
+.m_top span{
+	font-size: 14px;
+    color: #715125;
+    line-height: 20px;
+}
+.m_top .t i{
+	width: 100%; 
+	height: 100%; 
+	display: block; 
+	position: absolute; 
+	left: 0; 
+	top: -22px; 
+	z-index: -1; 
+	background: #000000; 
+	opacity: 0.7;  
+	font-size: 16px; 
+}
+.m_top .t{
+	height: 174px; 
+	width:100%; 
+	position: absolute; 
+	left: 0; 
+	top: -174px; 
+	color: #ffffff; 
+	z-index: 2; 
+	
+}
+.m_top .t span{
+	display: block; 
+	width: 94%; 
+	margin: -12px auto 0; 
+	line-height: 26px; 
+	font-size: 16px;
+	color: #ffffff; 
+	 
+	padding-top: -174px; 
+}
+.m_bottom{
+	height: 500px;
+	padding: 100px 0 0 0;
+}
+.m_bottom h2{
+	font-size: 32px;
+    color: #715125;
+    line-height: 70px;
+    font-weight: 300;
+}
+.m_bottom .img1{
+	width: 54px;
+	height: 390px;
+	opacity:1;
+}
+.m_bottom .title{
+	width: 54px;
+    height: 390px;
+    float: left;
+    margin-right: 2px;
+}
+.m_bottom h2{
+	margin-left: 20px;
+}
+.m_bottom .title h2{
+	width: 0;
+	height: 142px;
+	color: #dea85f;
+	font-size: 24px;
+	text-align: center;
+    line-height: 26px;
+	padding: 30px 18px 0 0;
+    position: absolute;
+	top: 0;
+	left: 0;
+} 
+.m_bottom .current{
+	width: 1258px;
+	height: 390px;
+	overflow: hidden;
+}
+.m_bottom ul{
+	width: 6125px;
+	height: 390px;
+	margin-left: 20px;
+	list-style: none;
+}
+.m_bottom ul li{
+	/* width: 875px; */
+	height: 390px;
+	position: relative;
+	float: left;	
+}
+.m_bottom ul li .contain{
+	width: 801px;
+	height: 390px;
+	margin: 0 10px;
+	float: left;
+	background:rgba(255,255,255,0.9) url('../images/images4/sdz_bg02.png') no-repeat center center;
+	display: none;
+}
+.m_bottom ul li .contain1{
+	width: 801px;
+	height: 390px;
+	margin: 0 10px;
+	float: left;
+	background:rgba(255,255,255,0.9) url('../images/images4/sdz_bg02.png') no-repeat center center;
+	display: block;
+}
+.m_bottom .contain h3{
+	font-size: 34px;
+    text-align: center;
+    margin-top: 36px;
+    color: #715125;
+}
+.m_bottom .contain p{
+	width: 700px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #715125;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.m_bottom .contain .c_p1{
+	background: url('../images/images4/sdz_bg01.png') no-repeat;
+	width: 108px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #fff;
+    line-height: 42px;
+    font-size: 16px;
+    padding: 0 0 0 18px;
+    cursor: pointer;
+}
+#return{
+	width: 38px;
+	height: 38px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius:50% ;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+	cursor: pointer;
+}
+#return img{
+	position: absolute;
+	bottom: 10px;
+    right: 10px;
+    width: 16px;
+	height: 18px;	
+}
+

@@ -1,0 +1,275 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+  width:1258px;
+  min-width:1258px;
+  max-width:100%;
+  /*height:100%;*/
+  color: #474747;
+  margin:0 auto; 
+  text-align:center;
+}
+
+.wrap {
+    width: 1258px;
+	height: 70px;
+	text-align: left;
+	font-family: 微软雅黑,'Heiti SC',黑体,Arial;
+	font-size: 14px;
+	color: #707070;
+	line-height: 50px;
+}
+
+
+.onTop{
+	
+	width: 1258px;
+	height: 150px;
+	position: relative;
+	margin-top: 10px;
+	background-position: center;
+}
+.onCenter{
+	width: 1258px;
+	/*height: 1200px;*/
+	position: relative;
+	/*border: 1px solid red;*/
+	background-position: center;
+}
+.onCenter_1,.onCenter_2,.onCenter_3,.onCenter_4,.onCenter_5,.onCenter_6{
+	width: 	370px;
+	height: 310px;
+	position: absolute;
+}
+.onCenter_2{
+	margin:0 0 0 450px;
+}
+.onCenter p{
+	margin-top: 10px;
+}
+.onCenter_3{
+	margin:0 0 0 888px;
+}
+.onCenter_4{
+	margin:40px 0 0 0;
+}
+.onCenter_5{
+	margin:40px 0 0 450px;
+}
+.onCenter_6{
+	margin:40px 0 0 888px;
+}
+
+
+.onBottom{
+	width: 1258px;
+	height: 270px;
+	position: relative;
+	margin: 70px auto 70px;
+	/*border: 1px solid red;*/
+}
+
+.onBottom_1{
+	width: 1258px;
+	height: 270px;
+	/*border: 1px solid yellow;*/
+	/*position: absolute;*/
+}
+
+.onBottom_a,.onBottom_b,.onBottom_c,.onBottom_d{
+	width: 	316px;
+	height: 225px;
+	position: absolute;
+	/*border: 1px solid green;*/
+}
+
+.onBottom_a{
+	/*background: #573534;*/
+	margin:-1px 0 0 5px;
+
+}
+.onBottom_b{
+	/*background:#263C51;*/
+	margin:0 0 0 315px;
+}
+.onBottom_c{
+	/*background:#9E7A4A;*/
+	margin:0 0 0 628px;
+}
+.onBottom_d{
+	/*background:#725640;*/
+	margin:-1px 0 0 941px;
+}
+
+.onBottom_2{
+	width: 1258px;
+	height: 140px;
+	/*border: 1px solid yellow;*/
+	position: absolute;
+	margin:300px 0 0 0;
+}
+/*新闻列表*/
+.leibiao li{
+	position: relative;
+    border-bottom: 1px solid #ccc;
+    padding: 23px 20px 23px 0;
+    text-align: left;
+
+}
+
+li>span{
+	float: right;
+    margin-left: 10px;
+    /* font-family: Arial; */
+    font-size: 14px;
+    color: #474747;
+    /*top: -20px;*/
+}
+
+
+#showhide{
+           width: 1258px;
+           display: block;
+           margin: 0 auto;
+           padding: 5px;
+           font-size: 20px;
+           height:330px;
+           font-family: "微软雅黑";
+       }
+
+.btn-slide
+       {
+           background: url("../images/images6/z45.jpg") no-repeat;
+           text-align: center;
+           width: 128px;
+           height: 38px;
+           padding: 10px 10px 0 0;
+           margin: 0 auto;
+           display: block;
+           color: black;
+           text-decoration: none;
+       }
+
+.slide{
+	margin:30px auto 40px;
+	clear: both
+	height:80px;
+}
+
+#show{
+	margin: -40px auto 0;
+	width: 1258px;
+	height: 350px;
+}
+
+
+.box{
+			position: relative;
+		}
+.mask{
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: none;
+}
+
+#spread{
+        height: 0px;
+        overflow: hidden;
+    }
+
+#btn{
+    width: 132px;
+    height: 40px;
+	cursor: pointer;
+    background:white;
+    }
+
+/*四个图*/
+
+.D_nav{
+	position: relative;
+	width: 100%;
+	height: 270px;
+}
+.D_nav .D_pos{
+	width: 100%;
+	position: absolute;	
+	bottom: 0;
+}
+.D_nav .nav_1,.nav_2,.nav_3,.nav_4{
+	width: 25%;
+	float: left;
+	height: 225px;
+}
+.D_nav .nav_1{
+	background: url(../images/images6/专家名录bck.jpg);
+}
+.D_nav .nav_2{
+	background: url(../images/images6/故宫研究院bck.jpg);
+	
+}
+.D_nav .nav_3{
+	background: url(../images/images6/故宫学院bck.jpg);
+}
+.D_nav .nav_4{
+	background: url(../images/images6/其他机构bck.jpg);
+}
+.D_nav .D_pos .nav_1 .trans{
+	transition: all .2s linear;
+	margin:0 0 0 -280px;
+}
+.D_nav .D_pos .nav_2 .trans{
+	transition: all .2s linear;
+	margin:0 0 0 -280px;
+}
+.D_nav .D_pos .nav_3 .trans{
+	transition: all .2s linear;
+	margin:0 0 0 -280px;
+}
+.D_nav .D_pos .nav_4 .trans{
+	transition: all .2s linear;
+	margin:0 0 0 -280px;
+}
+.D_nav .D_pos .nav_1:hover .trans{
+	transition: .2s;
+	transition-timing-function: ease-in-out;
+	transform: translateY(-7px);
+}
+.D_nav .D_pos .nav_2:hover .trans{
+	transition: .2s;
+	transition-timing-function: ease-in-out;
+	transform: translateY(-7px);
+}
+.D_nav .D_pos .nav_3:hover .trans{
+	transition: .2s;
+	transition-timing-function: ease-in-out;
+	transform: translateY(-7px);
+}
+.D_nav .D_pos .nav_4:hover .trans{
+	transition: .2s;
+	transition-timing-function: ease-in-out;
+	transform: translateY(-7px);
+}
+.D_nav img{
+	width: 126px;
+	position: absolute;
+	margin: 30px 85px;
+}
+.D_nav span{
+	width: 100px;
+	font-size: 18px;
+	color: #ffffff;
+	position: absolute;
+	text-align: center;
+	margin: 160px 100px;
+}
+
+
+.w1_head{
+	height: 60px;
+	padding-top: 30px;
+}

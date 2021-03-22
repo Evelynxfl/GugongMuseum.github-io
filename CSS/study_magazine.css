@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap,.m1,.m2,.m3,.m4{
+	width: 1258px;
+	margin: 0 auto;
+}
+.wrap{
+	width: 1258px;
+	height: 50px;
+	font-family: 微软雅黑,'Heiti SC',黑体,Arial;
+	font-size: 14px;
+	color: #707070;
+	line-height: 50px;
+}
+.main{
+	width: 1258px;
+	margin: auto;
+}
+.main .m1{
+	margin-top: 50px;
+	height: 519px;
+	position: relative;
+	overflow: hidden;
+}
+.m1 .title{
+	width: 1258px;
+	text-align: center;
+	height: 32px;
+	padding:0 0 0 40px;
+}
+.m1 .title span{
+    font-size: 26px;
+    color: #474747; 
+}
+.m1 .title img{
+	width: 22px;
+	height: 32px;
+	margin: 0 0 -7px 0;
+}
+.m1 .container #item{
+	width: 2516px;
+	height: 516px;
+	margin: 30px 0 0 0;
+	list-style: none;
+	background: mediumpurple;
+	position: absolute;
+	top: 21px;
+	left: 0;
+}
+.m1 .container ul li{
+	width: 1258px;
+	float: left;
+	height: 100%;
+	position: relative;
+}
+/* .m1 .container ul .item1,.m1 .container ul .item2 */
+.m1 .container ul .item1{
+	background: url('../images/images4/bg6.jpg') no-repeat;
+}
+.m1 .container ul .item2{
+	background: url('../images/images4/bg7.jpg')  no-repeat;
+}
+.m1 .container ul li img{
+	position: absolute;
+	top: 112px;
+    left: 72px;
+}
+.m1 .container ul li .text{
+	width: 393px;
+	height: 516px;
+	background: url('../images/images4/mask1.png');
+	float: right;
+}
+.m1 .container ul li .text .t1{
+	width: 319px;
+	height: 295px;
+	margin: 72px 37px;
+}
+.m1 .container ul li .text .t1 h1{
+	font-size: 16px;
+    color: #fff;
+    line-height: 1.3;
+    margin: 25px 10px;
+    cursor: pointer;
+}
+.m1 .container ul li .text .t1 p{
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 10px 10px;
+	cursor: pointer;
+}
+.main .container{
+	width: 1258px;
+	/* overflow: hidden; */
+}
+.main .m2{
+	height: 48px;
+	position: relative;
+	padding: 30px 0;
+	margin: 0 auto;
+	/* background: yellowgreen; */
+}
+.m2 .t1 .icon1{
+	width: 21px;
+    height: 17px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+.m2 .t1 .icon2{
+	width: 21px;
+    height: 17px;
+	position: absolute;
+	top: 40px;
+	right: 0;
+}
+.m2 .t1 p{
+	width: 1176px;
+	color: #707070;
+	line-height: 1.2;
+	padding:4px 0 0 0;
+	margin: 0 auto;
+}
+.main .m3{
+	height: 560px;
+}
+.m3 .m3_left{
+	float: left;
+	width: 720px;
+	height: 515px;
+	padding: 45px 51px 0 54px;
+	background: url('../images/images4/museum2.jpg');
+}
+.m3 .m3_left .btn .b{
+	width: 171px;
+    height: 37px;
+    background:url("../images/images4/btn1.png") no-repeat center;
+	color: #fff;
+	margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+	line-height: 37px;
+    font-size: 14px;
+	margin:0 10px 20px 0;
+    display: inline-block
+}
+.m3 .m3_left .text2 .contant{
+	width: 730px;
+	height: 395px;
+	position: relative;
+	overflow: hidden;
+}
+.m3 .m3_left .text2 .contant .p{
+	width: 700px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.6;
+	position: absolute;
+	top: 0;
+}
+.m3 .m3_left .text2 .contant .cl{
+	width: 16px;
+	height: 395px;
+	/* background-color: #fff; */
+	position: absolute;
+    top: 0;
+    right:0 ;
+}
+.m3 .m3_left .text2 .contant .silderWrap{
+	position: relative;
+	background-color: rgb(63, 48, 128);
+    width: 2px;
+    height: 395px;
+    margin: 0 auto;
+    border-radius: 16px;
+    text-align: center;
+}
+.m3 .m3_left .text2 .cl .silder{
+	position: absolute;
+	top: 0;
+	right: 7px;
+	background:rgba(255, 255,255, 0.7);
+    width: 4px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 16px;
+	text-align: center;
+	cursor: pointer;
+}
+.m3 .m3_right{
+	float: right;
+	width: 393px;
+	height: 100%;
+	background: url('../images/images4/museum3.jpg');
+	margin: 0 0 0 0;
+}
+.m3 .m3_right .b1{
+	width: 171px;
+    height: 37px;
+    background:url("../images/images4/btn1.png") no-repeat center;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    line-height: 37px;
+    font-size: 14px;
+    margin:40px 6px 0 10px;
+    display: inline-block
+}
+.m3 .m3_right .box1,.box2{
+	width: 353px;
+	margin: 0 auto;
+}
+
+.m3 .m3_right .box1 p{
+	font-size: 14px;
+    color: #fff;
+	margin: 25px 0;
+    line-height: 1.5;
+    padding: 2px 0;
+}
+.m3 .m3_right .box2{
+	display: none;
+}
+.m3 .m3_right .box2 p{
+	font-size: 14px;
+    color: #fff;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+.main .m4{
+	height: 520px;
+	padding: 90px 0 55px 0;
+}
+.btn1,.input1,.input2,.input3,.input4,.btn2{
+	height: 40px;
+	margin: 0 10px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.m4 input{
+	width: 110px;
+	height: 19px;
+	border-style: none;
+	border-radius: 0;
+	outline: 0;
+}
+.m4 .btn1,.m4 .btn2{
+	width: 144px;
+	background: url("../images/images4/btn6.png") no-repeat center;
+}
+.m4 .input1,.m4 .input2, .m4 .input3,.m4 .input4{
+	width: 200px;
+	background: url("../images/images4/btn5.png") no-repeat center;
+}
+.input3 span,.input4 span{
+	margin: 0 106px 0 0;
+}
+.m4 .input3,.m4 .input4{
+	position: relative;
+}
+
+.m4 .select_arrow{
+	position: absolute;
+	top: 16px;
+    left: 159px;
+	width: 12px;
+	height: 40px;
+	background: url('../images/images4/select_arrow.png') no-repeat;
+}
+.m4 ul li span{
+	color: #707070;
+}
+.m4 ul{
+	height: 426px;
+	list-style: none;
+	margin: 32px 0 0 20px;
+}
+.m4 ul li{
+	border-bottom: 1px solid #909090;
+	margin-left: 15px;
+	width: 600px;
+	height: 70px;
+	float: left;
+}
+.m4 ul li .m4_left,.m4 ul li .m4_right{
+	display: inline-block;
+	margin: 0 32px 0 0 ;
+	height: 70px;
+	line-height: 70px;
+}
+.m4 ul li .m4_left{
+	float: left;
+}
+.m4 ul li .m4_right{
+	float: right;
+}

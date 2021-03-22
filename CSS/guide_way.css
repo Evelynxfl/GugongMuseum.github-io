@@ -1,0 +1,94 @@
+#way{
+	width: 1258px;
+	height: 550px;
+	position: relative;
+}
+#way_left{
+	width: 480px;
+	height: 550px;
+	position: relative;
+	float: left;
+	background-image: url(../images/images2/back_g.jpg);
+}
+#way_left1{
+	position: absolute;
+	width: 480px;
+	height: 550px;
+	margin: 1499px 0 0 0;
+	z-index: 999;
+}
+#way_right{
+	width: 778px;
+	height: 551px;
+	position: relative;
+	float: left;
+	/*margin: 0 0 0 480px;*/
+	background-image: url(../images/images2/way_right_back.jpg);
+}
+#way_right1{
+	width: 778px;
+	height: 105px;
+	position: relative;
+	/*background-color: black;*/
+}
+.way_right1_title{
+	width: 170px;
+	height: 45px;
+	position: relative;
+	float: left;
+	color: #FFF;
+	font-size: 20px;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+	margin:45px 12px 0;
+	background-image: url(../images/images2/way_right1.png);
+}
+#way_right2{
+	width: 778px;
+	height: 357px;
+	position: relative;
+	overflow: hidden;
+}
+#way_right2_all{
+	width: 3112px;
+	height: 347px;
+	/*overflow: hidden;*/
+}
+.way_right2_text{
+	width: 708px;
+	height: 347px;
+	padding: 25px 0 0 70px;
+	position: relative;
+	float: left;
+}
+.way_right2_text img{
+	width: 15px;
+	height: 15px;
+	margin:0 10px 0 0;
+	vertical-align: middle;
+}
+.way_right2_text h3{
+	color: #FFF;
+	font-size: 18px;
+	padding: 3px 0 0 0px;
+	margin:0 0 9px;
+	font-weight: normal;
+}
+.way_right2_text h4{
+	color: #FFF;
+	font-size: 14px;
+	padding: 0 23px 50px 27px;
+	font-weight: normal;
+}
+#way_right3{
+	width: 678px;
+	height: 51px;
+	padding: 20px 50px 34px 50px;
+	background-color: rgba(0,0,0,0.1);
+}
+#way_right3 p{
+	color: #FFF;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
